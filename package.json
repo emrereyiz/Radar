@@ -1,0 +1,31 @@
+{
+  "name": "radar",
+  "version": "1.0.0",
+  "description": "Radar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrereyiz/Radar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emrereyiz/Radar/issues"
+  },
+  "homepage": "https://github.com/emrereyiz/Radar#readme",
+  "dependencies": {
+    "bower": "^1.8.8"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0"
+  }
+}

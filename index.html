@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Radar</title>
+
+	<link rel="stylesheet" type="text/css" href="_assets/css/core/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="_assets/css/plugin/swiper.min.css" />
+	<link rel="stylesheet" href="_assets/css/plugin/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="_assets/css/radar.css">
+
+
+
+</head>
+<body>
+	<div id="phone">
+		<img class="site-logo" src="http://casinoradar.de/custom/img/logo.png" alt="Casino Radar" />
+		<div id="map"></div>
+
+		<div id="info-box">
+			<div id="detail">
+				<a class="icon-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+				<ul>
+					<li>
+						<label>Adresse</label>
+						<span>Haupt Str.86</span>
+					</li>
+					<li>
+						<label>Telefonnummer</label>
+						<a href="tel:076 229(035391)">076 229(035391)</a>
+					</li>
+					<li>
+						<label>Postleitzahl</label>
+						<span>79650</span>
+					</li>
+				</ul>
+				<div class="buttons">
+					<a href="#">
+						<span class="icon"><i class="fa fa-map" aria-hidden="true"></i></span>
+						<span class="text">Geldspielgeräte</span>
+					</a>
+					<a href="#">
+						<span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+						<span class="text">Reservieren</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="form-box">
+			<div class="container">
+				<a class="icon-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+				<h2>Cafe Mundo</h2>
+				<select>
+					<option>Makine 1</option>
+					<option>Makine 2</option>
+				</select>
+				<input type="text" name="user-name" id="user-name" class="user-name" placeholder="name" />
+				<input type="text" name="user-phone" id="user-phone" class="user-phone" placeholder="phone" />
+				<input type="text" name="user-date" id="user-date" class="user-date" placeholder="date" />
+				<select>
+					<option>10 dakika</option>
+					<option>30 dakika</option>
+					<option>60 dakika</option>
+				</select>
+			</div>
+		</div>
+
+
+		<div id="swiper-wrapper">
+			<!-- Slider main container -->
+			<div class="swiper-container">
+			    <!-- Additional required wrapper -->
+			    <div class="swiper-wrapper">
+			        <!-- Slides -->
+			        <div class="swiper-slide">
+			        	<div class="swiper-item available" data-title="ÜST SOL" data-cords="{41.029705, 28.921276}">
+			        		<img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" alt="" />
+			        		<span class="title">ÜST SOL</span>
+			        		<span class="detail">21 KM</span>
+			        		<a href="#">DETAY</a>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<div class="swiper-item non-available" data-title="ALT SOL" data-cords="{41.024705, 28.920871}">
+			        		<img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" alt="" />
+			        		<span class="title">ALT SOL</span>
+			        		<span class="detail">21 KM</span>
+			        		<a href="#">DETAY</a>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<div class="swiper-item available" data-title="test" data-cords="{41.039705, 28.913138}">
+			        		<img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" alt="" />
+			        		<span class="title">test</span>
+			        		<span class="detail">21 KM</span>
+			        		<a href="#">DETAY</a>
+			        	</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<div class="swiper-item available" data-title="test 2" data-cords="{41.044705, 28.900871}">
+			        		<img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" alt="" />
+			        		<span class="title">test 2</span>
+			        		<span class="detail">21 KM</span>
+			        		<a href="#">DETAY</a>
+			        	</div>
+			        </div>
+			    </div>
+			</div>	
+		</div>
+		<div id="preload">
+			<div class="lds-ripple"><div></div><div></div></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="_assets/js/core/jquery.min.js"></script>
+	<script type="text/javascript" src="_assets/js/plugin/swiper.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCah53nSgpXREmP3KnCswF6MipaWZvEIXA&libraries=geometry"></script>
+	<script type="text/javascript" src="_assets/js/radar.js"></script>
+</body>
+</html>
